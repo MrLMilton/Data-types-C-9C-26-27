@@ -4,8 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, 9C/cs1!");
-            Console.WriteLine("This is a chnage from GitHub");
+            float myFloat = 3.642f;
+            char myChar = '*';
+            string MyString = "this is the meaning of life";
+            int myInt = 76;
+            double myDouble = 846.23523;
+            bool myBool = false;
+
+            Console.WriteLine(MyString);
+            Console.WriteLine(myChar + MyString);
+            Console.WriteLine(MyString + myChar + myInt);
         }
     }
 }
